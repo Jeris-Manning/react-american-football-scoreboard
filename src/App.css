@@ -30,7 +30,7 @@
   place-items: center;
   border: 3px solid white;
   border-radius: 0.5rem;
-  width: 15rem;
+  width: 25rem;
 }
 
 .home {
@@ -48,7 +48,7 @@
 .ballOn__title,
 .quarter__title {
   text-transform: uppercase;
-  font-size: 3rem;
+  font-size: 2.3rem;
   padding: 2rem;
 }
 
@@ -119,4 +119,14 @@
 .awayButtons__fieldGoal {
   margin: 1rem;
   border-radius: 4px;
+}
+
+.homeButtons, .awayButtons {
+  display: flex;
+  flex-direction: column;
+}
+
+.teamInput {
+  font-weight: 500;
+  
 }
