@@ -1,5 +1,5 @@
 import React from "react";
-import { CompactPicker } from 'react-color';
+
 import "./App.css";
 
 const BottomRow = () => {
